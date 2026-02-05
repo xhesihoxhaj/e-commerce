@@ -1,0 +1,28 @@
+.navbar {
+  background-color: lightgrey;
+}
+
+.me-auto ms-5 px-5 text-white fw-semibold {
+  margin-left: 60px;
+}
+
+.menu {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+
+}
+/* 
+.icons{
+  transition: all 0.3s ease;
+} */
+.icons:hoover {
+  color: red;
+}
+
+.icons {
+  margin: 10px;
+}

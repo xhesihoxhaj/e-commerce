@@ -1,0 +1,13 @@
+.kolona{
+    background-color: rgb(242, 241, 241);
+}
+.video{
+    
+  transition: all 0.5s ease;
+  cursor: pointer;
+  
+}
+
+.video:hover {
+  transform: scale(1.03);   
+}

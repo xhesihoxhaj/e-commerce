@@ -1,0 +1,73 @@
+.swiper {
+    padding: 20px 0;
+}
+
+.cardBody {
+    background-color: rgb(219, 203, 182);
+}
+
+.swiper {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.button {
+    background-color: aliceblue;
+    color: beige;
+
+}
+
+.image {
+    background-color: rgb(236, 233, 233);
+}
+
+.h1 {
+    margin-left: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+
+.button {
+    margin-left: 140px;
+}
+
+.plumps {
+    margin-left: 130px;
+}
+
+.cardslide {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cardslide:hover {
+    transform: scale(1.1);
+
+}
+.image1{
+     background-color: rgb(236, 233, 233);
+     position: relative;
+}
+.bestsellers{
+position: absolute;
+top: 20px;
+margin-left: 20px;
+background-color: white;
+}
+.heart{
+    position: absolute;
+    margin-left: 250px;
+    top: 19px;
+}
+.black{
+    cursor: pointer;
+}
+.black:hoover{
+    color: red;
+}

@@ -1,0 +1,22 @@
+.img-fluid {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.h3 {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+
+.para {
+    position: absolute;
+    top: 420px;
+    left: 40px;
+    font-family: cursive;
+    font-size: 20px;
+}

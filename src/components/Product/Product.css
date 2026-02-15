@@ -1,0 +1,60 @@
+.product-info {
+  padding: 30px;
+  background: 1#e7e6e6;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  margin-top: 80px;
+}
+.info{
+  background-color: #dfdada;
+  border-radius: 30px;
+}
+
+.product-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.product-brand {
+  font-size: 14px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.product-description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.qty-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.qty-input {
+  width: 100px;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #000;
+  border: none;
+  border-radius: 30px;
+}
+
+.add-btn:hover {
+  background-color: #b5b0b0;
+}

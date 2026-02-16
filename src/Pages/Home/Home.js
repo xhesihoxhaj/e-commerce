@@ -9,13 +9,15 @@ import Carousel1 from "../../components/Carousel";
 import CardSlider from "../../components/cardSlider";
  import Navbar1 from "../../components/Navbar";
 import Footer from "../../components/Footer/Footer";
+import { useState } from "react";
 
 
 const Home = () => {
+ 
   return (
     <>
       
-      <Navbar1/>
+      <Navbar1  />
       <Carousel1 />
       <Body />
       <CardSlider />

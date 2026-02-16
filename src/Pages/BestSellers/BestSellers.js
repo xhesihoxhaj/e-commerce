@@ -1,10 +1,10 @@
 import BestSellers from '../../images/Bestsellers.webp'
 import './Bestsellers.css'
-import Navbar1 from '../Navbar'
+import Navbar1 from '../../components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { Container, Row, Col, Card, Button, ButtonGroup } from 'react-bootstrap';
-import Footer from '../Footer/Footer';
+import Footer from '../../components/Footer/Footer';
 
 
 const BestSellersProducts = () => {
@@ -73,7 +73,6 @@ const BestSellersProducts = () => {
         <>
             <Navbar1 />
 
-
             <div>
                 <img src={BestSellers} className='img-fluid' alt="Bestsellers" />
                 <h3 className='h3 fw-bold text-center mt-4'>Bestsellers</h3>
@@ -135,7 +134,7 @@ const BestSellersProducts = () => {
                     ))}
                 </Row>
             </Container>
-            <Footer/>
+            <Footer />
         </>
     )
 }

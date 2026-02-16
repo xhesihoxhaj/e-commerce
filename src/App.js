@@ -1,11 +1,12 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
-import BestSellersProducts from './components/BestSellers/BestSellers'
-import ProductPage from './components/Product/Product';
+import BestSellersProducts from './Pages/BestSellers/BestSellers'
+import ProductPage from './Pages/Product/Product';
+import { useState } from 'react';
 
 function App() {
-
+  const [searchTerm, setSearchTerm] = useState('');
   return (
     <Router>
       <div className="App">
@@ -15,7 +16,7 @@ function App() {
           <Route
             path="/bestsellers"
             element={<BestSellersProducts />} />
-          <Route path='/product' element={<ProductPage />}>
+          <Route path='/product' element={<ProductPage searchTerm={searchTerm} />}>
 
           </Route>
         </Routes>

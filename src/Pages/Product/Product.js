@@ -7,8 +7,8 @@ import hydra2 from "../../images/hydra2.webp"
 import hydra3 from "../../images/hydra3.webp"
 // import hydra4 from "../../images/hydra4.webp"
 import './Product.css'
-import Navbar1 from "../Navbar";
-import Footer from "../Footer/Footer";
+import Navbar1 from "../../components/Navbar";
+import Footer from "../../components/Footer/Footer";
 function ProductPage() {
     const product = {
         title: "Natural Moisturizing Factors + HA",
